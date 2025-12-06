@@ -31,8 +31,8 @@ export default function App() {
 
       <main className="max-w-5xl mx-auto px-4 py-6">
         <Routes>
-          <Route path="/" element={<Navigate to="/students" replace />} />
-          <Route path="/students" element={<StudentsPage />} />
+          
+          <Route path="/" element={<StudentsPage />} />
           <Route path="/teachers" element={<TeachersPage />} />
           <Route path="/courses" element={<CoursesPage />} />
           <Route path="/enrollments" element={<EnrollmentsPage />} />
